@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <input id="result" type="text" value="0" readonly>
+        <hr id="hrResult">
+        <button id="ac_btn" class="op_btn" onclick="clrAll()">AC</button>
+        <button id="c_btn" class="op_btn" onclick="clr()">C</button>
+        <button id="signal_btn" class="op_btn" onclick="reverseSignal()">+/-</button>
+        <button id="div_btn" class="op_btn" onclick="pressOperator(this)">÷</button>
+        <button id="mult_btn" class="op_btn" onclick="pressOperator(this)">x</button>
+        <button id="sub_btn" class="op_btn" onclick="pressOperator(this)">-</button>
+        <button id="sum_btn" class="op_btn" onclick="pressOperator(this)">+</button>
+        <button id="equal_btn" class="equal_btn" onclick="pressEqual(this)">=</button>
+        <button id="fpt_btn" class="num_btn" onclick="pressNum(this)">.</button>
+        <button id="zero_btn" class="num_btn" onclick="pressNum(this)">0</button>
+        <button id="one_btn" class="num_btn" onclick="pressNum(this)">1</button>
+        <button id="two_btn" class="num_btn" onclick="pressNum(this)">2</button>
+        <button id="three_btn" class="num_btn" onclick="pressNum(this)">3</button>
+        <button id="four_btn" class="num_btn" onclick="pressNum(this)">4</button>
+        <button id="five_btn" class="num_btn" onclick="pressNum(this)">5</button>
+        <button id="six_btn" class="num_btn" onclick="pressNum(this)">6</button>
+        <button id="seven_btn" class="num_btn" onclick="pressNum(this)">7</button>
+        <button id="eight_btn" class="num_btn" onclick="pressNum(this)">8</button>
+        <button id="nine_btn" class="num_btn" onclick="pressNum(this)">9</button>
+    </div>
+    
+    <script lang="javascript" src="main.js"></script>
+    
+</body>
+</html>
