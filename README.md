@@ -27,3 +27,7 @@ O estilo é com você, então use sua imaginação e seja criativo! Você també
 
 - [x] O usuário pode clicar no botão '+/-' para alterar o sinal do número exibido no momento.
 - [x] O usuário pode ver um botão de ponto decimal ('.') No teclado de entrada para permitir a inserção de números de ponto flutuante de até 3 casas e a execução de operações com o número máximo de casas decimais inseridas para qualquer número.
+
+## Link da lista de desafios 'app ideas'
+
+https://github.com/florinpop17/app-ideas
