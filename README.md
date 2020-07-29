@@ -1,9 +1,14 @@
 # Calculator Simple
 
+Done in HTML5, CSS3 and Javascript.
 
 CodePen: https://codepen.io/eliasgds/pen/oNbrZqm
 
 ## Preview
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67754744/88864341-5ad25c00-d1db-11ea-90e2-41ccc6090f1d.gif">
+</p>
 
 ## Features
 
