@@ -1,33 +1,24 @@
-# Calculadora
+# Calculator Simple
 
-**Nível: 1** - Iniciante
 
-As calculadoras não são apenas uma das ferramentas mais úteis disponíveis, mas também são uma ótima maneira de entender o processamento de UI e eventos em um aplicativo. Nesse problema, você criará uma calculadora que suporta cálculos aritméticos básicos em números inteiros.
+CodePen: https://codepen.io/eliasgds/pen/oNbrZqm
 
-O estilo é com você, então use sua imaginação e seja criativo! Você também pode achar que vale a pena experimentar o aplicativo da calculadora em seu dispositivo móvel para entender melhor a funcionalidade básica e os casos extremos.
+## Preview
 
-**Restrições**
+## Features
 
-- Você não pode usar a função eval() para executar cálculos
+- [x] User can see a display showing the current number entered or the result of the last operation.
+- [x] User can see an entry pad containing buttons for the digits 0-9, operations - '+', '-', '/', and '=', a 'C' button (for clear), and an 'AC' button (for clear all).
+- [x] User can enter numbers as sequences up to 8 digits long by clicking on digits in the entry pad. Entry of any digits more than 8 will be ignored.
+- [x] User can click on an operation button to display the result of that operation on:
+the result of the preceding operation and the last number entered OR
+the last two numbers entered OR
+the last number entered
+- [x] User can click the 'C' button to clear the last number or the last operation. If the users last entry was an operation the display will be updated to the value that preceded it.
+- [x] User can click the 'AC' button to clear all internal work areas and to set the display to 0.
+- [x] User can see 'ERR' displayed if any operation would exceed the 8 digit maximum.
 
-## Exigências dos Usuários
+## Bonus features
 
-- [x] O usuário pode ver uma tela mostrando o número atual digitado ou o resultado da última operação.
-- [x] O usuário pode ver um teclado de entrada contendo botões para os dígitos de 0 a 9, operações - '+', '-', '/' e '=', um botão 'C' (para limpar) e um botão 'AC' (para limpar tudo).
-- [x] O usuário pode inserir números como seqüências de até 8 dígitos, clicando nos dígitos no painel de entrada. A entrada de qualquer dígito acima de 8 será ignorada.
-- [x] O usuário pode clicar em um botão de operação para exibir o resultado dessa operação em:
-  - o resultado da operação anterior e o último número digitado OU
-  - os dois últimos números digitados em OR
-  - o último número digitado
-- [x] O usuário pode clicar no botão 'C' para limpar o último número ou a última operação. Se a última entrada do usuário foi uma operação, a exibição será atualizada para o valor que a precedeu.
-- [x] O usuário pode clicar no botão 'CA' para limpar todas as áreas de trabalho internas e ajustar a exibição para 0.
-- [ ] O usuário pode ver 'ERR' exibido se qualquer operação exceder o máximo de 8 dígitos.
-
-## Recursos Bônus
-
-- [x] O usuário pode clicar no botão '+/-' para alterar o sinal do número exibido no momento.
-- [x] O usuário pode ver um botão de ponto decimal ('.') No teclado de entrada para permitir a inserção de números de ponto flutuante de até 3 casas e a execução de operações com o número máximo de casas decimais inseridas para qualquer número.
-
-## Link da lista de desafios 'app ideas'
-
-https://github.com/florinpop17/app-ideas
+- [x] User can click a '+/-' button to change the sign of the number that is currently displayed.
+- [x] User can see a decimal point ('.') button on the entry pad to that allows floating point numbers up to 3 places to be entered and operations to be carried out to the maximum number of decimal places entered for any one number.
