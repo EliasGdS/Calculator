@@ -198,3 +198,26 @@ body {
     left: 66.6%;
     transform: translate(-66.6%);
 }
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(172, 95, 95), rgb(175, 127, 37), rgb(172, 95, 95));
+    bottom: 0%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    color: black;
+}
+
+footer p {
+    transform: translate(0%, -60%);
+    font-family: monospace;
+    font-size: 12pt;
+}
+
+footer p a img {
+    transform: translate(-7%, 20%);
+}
